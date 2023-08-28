@@ -1,0 +1,393 @@
+/*------Web Start------*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Get Google font Choice*/
+html{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: ;
+    text-rendering: optimizeLegibility;
+}
+/* header */
+header{
+    position: relative;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+header .logo{
+    padding-right: 30px;
+}
+header .nav-link{
+    text-transform: uppercase;
+    font-size: 140%;
+    color: #b4b3b3 !important;
+}
+header .btn-style{
+    color: #000;
+    font-weight: bold;
+    font-size: 140%;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 8px 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+header .hero-text{
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 35%;
+    left: 0%;
+}
+header .hero-text h1{
+    font-size: 500%;
+    color: #fff;
+}
+header .hero-text .hero-btn{
+    text-transform: uppercase;
+    font-size: 140%;
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#de4427,#f39e31);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+/* About */
+.about{
+    padding-bottom: 70px;
+    position: relative;
+}
+.about .about-card{
+    margin: -170px 10px 0px 10px;
+}
+.about .card{
+    padding: 45px 30px;
+    border-radius: 0;
+    box-shadow: 0px 10px 41px -4px #00000063;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.about .card:hover{
+    background-color: #f3a032;
+}
+.about .card h3{
+    color: #282828;
+    margin-bottom: 15px;
+    font-size: 250%;
+    font-weight: bold;
+}
+.about .card:hover h3{
+    color: #fff;
+}
+.about .card p{
+    font-size: 140%;
+    color: #7d7d7d;
+    margin-bottom: 10px;
+}
+.about .card:hover p{
+    color: #fff;
+}
+.about .active-btn{
+    color: #fff;
+    font-size: 130%;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    background-color: #f3a032;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.about .card:hover .active-btn{
+    background-color: #fff;
+    color: #000;
+}
+.about .card-body {
+    padding: 0;
+    margin-top: 10px;
+}
+.about .hide-btn{
+    color: #000;
+    font-size: 130%;
+    background-color: transparent;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.about .card:hover .hide-btn{
+    color: #fff;
+}
+/* why-we */
+.why-we{
+    padding-top: 70px;
+}
+.why-we .why-title{
+    display: block;
+    text-align: center;
+}
+.why-we .why-title h1{
+    font-size: 450%;
+}
+.why-we .why-title p{
+    color: #767676;
+    font-size: 160%;
+}
+.why-we .why-card .card{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 10px;
+}
+.why-we .why-card .card img{
+    margin-bottom: 20px;
+}
+.why-we .why-card .card p{
+    font-size: 150%;
+    line-height: 25px;
+    text-align: justify;
+}
+/* work */
+.work{
+    background-color: #f6f6f6;
+    padding: 90px 0px;
+}
+.work .work-title{
+    display: block;
+    text-align: center;
+}
+.work .work-title h1{
+    font-size: 450%;
+}
+.work .work-title p{
+    color: #767676;
+    font-size: 160%;
+}
+.work .work-card{
+    margin-top: 70px;
+}
+.work .work-card .card:hover{
+    background-color: #f3a032;
+}
+.work .work-card .card:hover p{
+    color: #fff;
+}
+.work .work-card .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 41px -4px #00000063;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.work .work-card .card p{
+    color: #000;
+    padding-top: 25%;
+    font-size: 360%;
+}
+/* App */
+.App{
+    padding: 70px 0px;
+}
+/* .App .App-flex{
+    display: flex;
+    flex-direction: column-reverse;
+} */
+.App .App-adjust{
+    margin: 0 auto;
+}
+.App .App-left{
+    padding: 150px 100px 0px 0px
+}
+.App .App-left h4{
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.App .App-left p{
+    font-size: 140%;
+    color: #767676;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.App .App-left a{
+    font-size: 140%;
+    color: #f3a032;
+}
+.App .App-left .App-img img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+.App .App-right .carousel-item{
+    text-align: center;
+}
+.App .App-right img{
+    width: 300px;
+    height: auto;
+}
+.App .App-right .fa-chevron-right{
+    font-size: 200%;
+    color: #ccc;
+}
+/* Faq */
+.faq{
+    background-color: #f6f6f6;
+    padding: 70px 0px;
+}
+.faq .faq-title{
+    display: block;
+    text-align: left;
+}
+.faq .faq-title h1{
+    font-size: 450%;
+}
+.faq .faq-title p{
+    color: #767676;
+    font-size: 160%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.faq .faq-text p{
+    font-size: 160%;
+    line-height: 25px;
+    color: #767676;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.faq .faq-text i{
+    background-color: #f3a032;
+    color: #fff;
+    padding: 4px;
+    border-radius: 50px;
+    margin-top: 8px;
+    font-size: 140%;
+}
+/* publish */
+.publish{
+    background-image: url('../img/video.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.publish .publish-text{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+.publish .publish-text h2{
+    color: #fff;
+    font-size: 450%;
+}
+.publish .publish-text p{
+    line-height: 30px;
+    color: #767676;
+    font-size: 160%;
+    margin-bottom: 50px;
+}
+/* Fact */
+.Fact{
+    padding: 90px 0px;
+}
+.Fact .Fact-title{
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.Fact .Fact-title h1{
+    font-size: 450%;
+}
+.Fact .Fact-title p{
+    margin: 0 auto;
+    width: 550px;
+    color: #767676;
+    font-size: 160%;
+    line-height: 25px;
+}
+.Fact .Fact-card{
+    margin-top: 10px;
+    text-align: center;
+}
+.Fact .Fact-card p{
+    font-size: 140%;
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.Fact .Fact-card:hover{
+    border-bottom: 2px solid #f39f31;
+}
+/* MAP */
+.Map{
+    position: relative;
+}
+.Map .Map-box{
+    width: 100%;
+    display: block;
+}
+.Map .Map-text{
+    position: absolute;
+    width: 600px;
+    background-color: #fff;
+    top: 40%;
+    margin: 0 auto;
+    left: 30%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.Map .Map-text .Map-p{
+    font-size: 140%;
+    color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+}
+.Map .Map-text p{
+    font-size: 160%;
+    color: #000;
+}
+/* Footer */
+footer{
+    text-align: center;
+    padding: 30px 0px;
+}
+footer p{
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 160%;
+    color: #767676;
+}
+footer a{
+    text-decoration: none;
+    font-size: 160%;
+    color: #767676;
+    padding: 0px 10px;
+}
+/*---------Striky------*/
+.normal{
+    width: 100%;
+    position: absolute;
+    margin-top: 20px;
+}
+.striky .normal{
+    display: none;
+}
+.striky{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.63);
+    margin-top: 0;
+    z-index: 10;
+}
+.navbar-toggler {
+    background-color: #f3ebebf7;
+    border: 1px solid #dedbdb;
+}
